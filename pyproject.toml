@@ -1,0 +1,15 @@
+[project]
+name = "pr-automator-agent"
+version = "0.1.0"
+description = "Developer automation agent for PR submission and code review workflows"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
